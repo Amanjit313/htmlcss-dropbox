@@ -1,0 +1,74 @@
+/* 
+  Header 
+*/
+
+/* Menu */
+.menu-fixed{
+  width: 100%;
+  min-height: 8vh;
+  background-color: red;
+}
+
+.menu-left,.menu-right{
+  width: 35%;
+  min-height: 8vh;
+  background-color: lightcoral;
+}
+
+.menu-space{
+  width: 30%;
+  min-height: 8vh;
+  background-color: lightpink;
+}
+
+/* Menu - Left*/
+
+/* Menu - Right*/
+
+/* /Menu */
+
+
+/* Jumbotron */
+.jumbotron{
+  width: 100%;
+  min-height: 80vh;
+  background-color: aqua;
+}
+
+.j-container{
+  width: 80%;
+  height: 80vh;
+  margin: 0 auto;
+  background-color: aquamarine;
+}
+
+/* Jumbotron Title */
+.j-title{
+  width: 100%;
+  min-height: 20vh;
+  background-color: blue;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+
+/* Jumbotron Text */
+.j-text{
+  width: 30%;
+  min-height: 35vh;
+  background-color: lightseagreen;
+}
+
+/* Jumbotron Image */
+.j-image{
+  width: 60%;
+  min-height: 50vh;
+  background-color: lightsteelblue;
+  margin-left: 10%;
+}
+
+/* /Jumbotron */
+
+/* 
+  /Header 
+*/
+
