@@ -1,3 +1,4 @@
+/* Float Utils */
 .clearfix::after{
   content: '';
   display: table;
@@ -6,4 +7,28 @@
 
 .float-left{
   float: left;
+}
+
+
+/* Button Utils */
+.button{
+  padding: 1vh 1.5vh;
+}
+
+.b-blue{
+  background-color: #0061FF;
+  color: white;
+}
+
+.b-blue:hover{
+  background-color: grey;
+  color: #B4D0E7;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
 }

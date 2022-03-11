@@ -6,24 +6,53 @@
 .menu-fixed{
   width: 100%;
   min-height: 8vh;
-  background-color: red;
 }
 
 .menu-left,.menu-right{
   width: 35%;
-  min-height: 8vh;
-  background-color: lightcoral;
+  height: 4vh;
+  margin: 2vh 0vh;
 }
 
 .menu-space{
   width: 30%;
   min-height: 8vh;
-  background-color: lightpink;
+}
+
+.menu-fixed nav{
+  margin-top: 1vh;
+  line-height: 2vh;
+}
+
+.menu-fixed ul li{
+  font-size: 0.9vw;
+  padding-left: 5vh;
+}
+
+.menu-fixed ul li a{
+  color: black;
+  padding-bottom: 2.9vh;
+}
+
+.menu-fixed ul li a:hover{
+  border-bottom: 2px solid black;
 }
 
 /* Menu - Left*/
+.menu-left img{
+  height: 2.5vh;
+  margin-top: 0.7vh;
+  margin-left: 3vh;
+}
 
 /* Menu - Right*/
+.m-button{
+  margin-left: 5vh;
+}
+
+.menu-right nav{
+  margin-left: 7vh;
+}
 
 /* /Menu */
 
@@ -31,41 +60,59 @@
 /* Jumbotron */
 .jumbotron{
   width: 100%;
-  min-height: 80vh;
-  background-color: aqua;
+  background-color: #B4D0E7;
 }
 
 .j-container{
   width: 80%;
   height: 80vh;
   margin: 0 auto;
-  background-color: aquamarine;
 }
 
 /* Jumbotron Title */
 .j-title{
   width: 100%;
-  min-height: 20vh;
-  background-color: blue;
-  margin-top: 10vh;
+  margin-top: 8vh;
   margin-bottom: 5vh;
+}
+
+.j-title h1{
+  font-size: 4.9vw;
 }
 
 /* Jumbotron Text */
 .j-text{
   width: 30%;
-  min-height: 35vh;
-  background-color: lightseagreen;
+}
+
+.j-t{
+  font-size: 1vw;
+  margin-bottom: 4vh;
+}
+
+.j-button{
+  
+}
+
+.j-t2{
+  font-size: 0.8vw;
+  margin-top: 2vh;
+}
+
+.fa-arrow-down{
+  font-size: 2vw;
+  margin-top: 3vh;
 }
 
 /* Jumbotron Image */
 .j-image{
   width: 60%;
-  min-height: 50vh;
-  background-color: lightsteelblue;
   margin-left: 10%;
 }
 
+.j-image img{
+  height: 55vh;
+}
 /* /Jumbotron */
 
 /* 
