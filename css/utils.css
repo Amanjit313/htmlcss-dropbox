@@ -32,3 +32,9 @@ a{
 ul{
   list-style: none;
 }
+
+/* Dimension 60% Center */
+.center60{
+  width: 60%;
+  margin: 0 auto;
+}
