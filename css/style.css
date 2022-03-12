@@ -154,29 +154,67 @@ header{
 
 footer{
   width: 100%;
-  height: 60vh;
+  height: 55vh;
   background-color: black;
 }
 
 .final-info{
   width: 80%;
-  height: 60vh;
+  height: 100%;
   margin: 0 auto;
-  background-color: grey;
 }
 
 /* Footer Infos */
 .f-infos{
   width: 100%;
   height: 25vh;
-  background-color: lightgray;
   margin-top: 10vh;
 }
 
+.f-infos > nav{
+  margin-right: 15vh;
+  font-size: .85vw;
+  color: white;
+}
+
+.infos-title{
+  font-size: 1.2vw;
+  margin-bottom: 2vh;
+}
+
+.f-infos ul li{
+  margin-bottom: 1vh;
+}
+
+.f-infos ul li a{
+  color: white;
+}
+
+.f-infos nav li a:hover{
+  color: red;
+  text-decoration: underline;
+}
 /* Footer Language */
 .f-language{
   width: 10%;
   height: 10vh;
-  background-color: lightslategray;
-  margin-top: 10vh;
+  margin-top: 5vh;
+}
+
+.f-language hr{
+  border: 1px solid darkgray;
+}
+
+.language{
+  color: darkgray;
+  margin-top: 4vh;
+}
+
+.language .fa-caret-up{
+  font-size: 0.8vw;
+  margin-left: 0.4vh;
+}
+
+.language .fa-earth-americas{
+  margin-right: 0.4vh;
 }
