@@ -100,7 +100,7 @@ header{
 }
 
 .j-button{
-  
+  font-size: .9vw;
 }
 
 .j-t2{
@@ -133,14 +133,212 @@ header{
   Main 
 */
 
+/* Main Container 1 */
 .m-container-1{
-  height: 300vh;
+  min-height: 300vh;
   background-color: red;
 }
 
-.m-container-2{
+/* Drop Box Plans */
+
+/* Title & Button */
+.m-c1-plans-title{
+  height: 25vh;
+  background-color: aqua;
+}
+
+/* Plans Box */
+.m-c1-plans-box-container{
   height: 100vh;
+  background-color: aquamarine;
+}
+
+.m-c1-plans-box{
+  height: 100%;
+  width: 30%;
+  background-color: aliceblue;
+}
+
+.m-c1-plans-box1{
+  height: 100%;
+  margin-right: 5%;
+}
+
+.m-c1-plans-box3{
+  height: 100%;
+  margin-left: 5%;
+}
+
+/* Contact */
+.m-c1-contact{
+  height: 30vh;
+  background-color: blue;
+}
+
+/* Partner */
+.m-c1-partner{
+  height: 55vh;
+  background-color: blueviolet;
+}
+
+.m-c1-partner-img{
+  height: 100%;
+  width: 50%;
+  background-color: beige;
+}
+
+.m-c1-partner-text{
+  height: 100%;
+  width: 50%;
+  background-color: blanchedalmond;
+}
+
+/* Drop Box Operations */
+
+/* Operations Title */
+.m-c1-operations-title{
+  height: 10vh;
+  background-color: aqua;
+}
+
+/* Operations Box */
+.m-c1-operations-box-container{
+  height: 90vh;
+  background-color: aquamarine;
+}
+
+.m-c1-operations-box{
+  width: 30%;
+  height: 40vh;
+  margin-bottom: 5vh;
+  background-color: black;
+}
+
+.m-c1-ope-box-1{
+  margin-right: 5%;
+}
+
+.m-c1-ope-box-3{
+  margin-left: 5%;
+}
+
+/* Main Container 2 */
+.m-container-2{
+  min-height: 150vh;
   background-color: darkred;
+}
+
+/* Title & Link */
+.m-c2-title{
+  height: 15vh;
+  background-color: blue;
+}
+
+/* Sponsor & Prova Gratuita */
+.m-c2-sponsor{
+  height: 90vh;
+  background-color: purple;
+}
+
+/* Sponsor */
+.m-c2-sponsor-box-container{
+  height: 50vh;
+  background-color: goldenrod;
+}
+
+/* Sponsor Box */
+.m-c2-sponsor-box{
+  height: 100%;
+  width: 26%;
+  background-color: cornsilk;
+}
+
+.m-c2-sponsor-singol-box{
+  width: 50%;
+  height: 50%;
+}
+
+.m-c2-sponsor-box1{
+  background-color: #A2D39B;
+}
+
+.m-c2-sponsor-box2{
+  background-color: #61082B;
+}
+
+.m-c2-sponsor-box3{
+  background-color: #0093CE;
+}
+
+.m-c2-sponsor-box4{
+  background-color: #FF1C1C;
+}
+
+.m-c2-sponsor-box5{
+  background-color: #D5001F;
+}
+
+.m-c2-sponsor-box6{
+  background-color: #B4D0E7;
+}
+
+.m-c2-sponsor-box7{
+  background-color: #0D2481;
+}
+
+.m-c2-sponsor-box8{
+  background-color: #FFD830;
+}
+
+/* Sponsor Text */
+.m-c2-sponsor-text{
+  height: 100%;
+  width: 48%;
+  background-color: cornflowerblue;
+}
+
+/* Prova Gratuita */
+.m-c2-prova{
+  height: 40vh;
+  background-color: yellow;
+}
+
+.m-c2-prova-text{
+  height: 100%;
+  width: 65%;
+  background-color: darkturquoise;
+}
+
+.m-c2-prova-text{
+  height: 100%;
+  width: 35%;
+  background-color: green;
+}
+
+/* Faq */
+.m-c2-faq{
+  height: 75vh;
+  background-color: lightblue;
+}
+
+/* Faq Title */
+.m-c2-faq-title{
+  background-color: antiquewhite;
+  width: 100%;
+  height: 15vh;
+}
+
+/* Faq Box */
+.m-c2-faq-box{
+  background-color: aquamarine;
+  width: 100%;
+  height: 60vh;
+}
+
+.m-c2-faq-box-questions{
+  background-color: darksalmon;
+  width: 100%;
+  height: 15vh;
 }
 
 /* 
