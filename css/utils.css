@@ -12,7 +12,7 @@
 
 /* Button Utils */
 .button{
-  padding: 1vh 1.5vh; /* Button Piccolo */
+  padding: .8vh 1.5vh; /* Button Piccolo */
 }
 
 .button-2{
@@ -103,4 +103,24 @@ ul{
 
 .m-font-size2{
   font-size: .9vw;
+}
+
+.m-font-size3{
+  font-size: 20px;
+}
+
+/* Translate Center */
+.translate-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Cornice per i Quadrati */
+.hover-square-1:hover{
+ width: 50%;
+ height: 50%;
+ border: 10px solid rgb(255, 255, 255, .5);
+ opacity: 85%;
 }

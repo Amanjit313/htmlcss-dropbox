@@ -9,7 +9,7 @@ header{
 .menu-fixed{
   width: 100%;
   min-height: 8vh;
-  /* position: fixed; */
+  position: fixed;
   z-index: 999;
   background-color: white;
   left: 0;
@@ -56,6 +56,7 @@ header{
 /* Menu - Right*/
 .m-button{
   margin-left: 5vh;
+  font-size: .9vw;
 }
 
 .menu-right nav{
@@ -162,16 +163,16 @@ header{
 }
 
 .m-c1-button-costumize-text{
-  margin-left: -1vh;
+  /* margin-left: -1vh; */
 }
 
 .container {
   display: block;
   position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
+  padding-left: 2.5vh;
+  margin-bottom: 5vh;
   cursor: pointer;
-  font-size: 22px;
+  font-size: 1vw;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -188,8 +189,8 @@ header{
   position: absolute;
   top: 0;
   left: 0;
-  height: 20px;
-  width: 20px;
+  height: 2.2vh;
+  width: 2.2vh;
   background-color: #eee;
   border-radius: 50%;
 }
@@ -213,10 +214,10 @@ header{
 }
 
 .container .checkmark:after {
-  top: 5px;
-  left: 5px;
-  width: 10px;
-  height: 10px;
+  top: .53vh;
+  left: .53vh;
+  width: 1.2vh;
+  height: 1.2vh;
   border-radius: 50%;
   background: white;
 }
@@ -270,7 +271,7 @@ header{
 }
 
 .m-c1-plans-box-type-icon-text p{
-  margin-left: 1vh;
+  margin-left: .8vh;
   font-size: 0.9vw;
 }
 
@@ -305,7 +306,7 @@ header{
 }
 
 .m-c1-plans-box-content-offers-details p{
-  margin-left: .5vh;
+  margin-left: .3vh;
   margin-bottom: 1.5vh;
 }
 
@@ -407,7 +408,7 @@ header{
 }
 
 .m-c1-partner-img img{
-  height: 100%;
+  width: 65vh;
 }
 
 /* Parter Text */
@@ -494,37 +495,54 @@ header{
 /* Main Container 2 */
 .m-container-2{
   min-height: 150vh;
-  background-color: darkred;
 }
 
 /* Title & Link */
 .m-c2-title{
-  height: 15vh;
-  background-color: blue;
+  min-height: 20vh;
+}
+
+.m-c2-title h2{
+  font-size: 2.5vw;
+  width: 58%;
+  margin-bottom: 2vh;
+}
+
+.m-c2-title a{
+  font-size: 1vw;
+  color: #0061FF;
+  text-decoration: underline;
+}
+
+.m-c2-title a:hover{
+  color: red;
 }
 
 /* Sponsor & Prova Gratuita */
 .m-c2-sponsor{
   height: 90vh;
-  background-color: purple;
 }
 
 /* Sponsor */
 .m-c2-sponsor-box-container{
   height: 50vh;
-  background-color: goldenrod;
 }
 
 /* Sponsor Box */
 .m-c2-sponsor-box{
   height: 100%;
   width: 26%;
-  background-color: cornsilk;
 }
 
 .m-c2-sponsor-singol-box{
   width: 50%;
   height: 50%;
+  position: relative;
+}
+
+.m-c2-sponsor-singol-box img{
+  width: 14vh;
+  filter: grayscale(1) invert(1);
 }
 
 .m-c2-sponsor-box1{
@@ -563,51 +581,101 @@ header{
 .m-c2-sponsor-text{
   height: 100%;
   width: 48%;
-  background-color: cornflowerblue;
+  background-color: #F5F5F5;
+  overflow: auto;
+}
+
+.m-c2-sponsor-text-central{
+  width: 100%;
+  height: 100%;
+}
+
+.m-c2-sponsor-text-img{
+  width: 15vh;
+  margin-top: 4vh;
+}
+
+.m-c2-sponsor-text-central hr{
+  border: 1px solid #D0D0D3;
+  width: 10%;
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+}
+
+.m-c2-sponsor-text-central p{
+  margin-bottom: 6vh;
 }
 
 /* Prova Gratuita */
+.m-c2-prova-container{
+  width: 100%;
+  background-color: #B4D0E7;
+}
+
 .m-c2-prova{
   height: 40vh;
-  background-color: yellow;
 }
 
 .m-c2-prova-text{
   height: 100%;
   width: 65%;
-  background-color: darkturquoise;
+}
+
+.m-c2-prova-text h2{
+  font-size: 2.5vw;
+  color: #61082B;
+  margin-top: 13vh;
 }
 
 .m-c2-prova-button{
   height: 100%;
   width: 35%;
-  background-color: green;
+}
+
+.m-c2-pr-button{
+  margin-top: 14vh;
 }
 
 /* Faq */
 .m-c2-faq{
-  height: 75vh;
-  background-color: lightblue;
+  height: 65vh;
 }
 
 /* Faq Title */
 .m-c2-faq-title{
-  background-color: antiquewhite;
   width: 100%;
   height: 15vh;
+  margin-top: 10vh;
+}
+
+.m-c2-faq-title h3{
+  font-size: 2vw;
+  margin-top: 5vh;
 }
 
 /* Faq Box */
 .m-c2-faq-box{
-  background-color: aquamarine;
   width: 100%;
   height: 60vh;
 }
 
 .m-c2-faq-box-questions{
-  background-color: darksalmon;
   width: 100%;
-  height: 15vh;
+  height: 10vh;
+  border-top: 1px solid #D0D0D3;
+  border-bottom: 1px solid #D0D0D3;
+}
+
+.m-c2-faq-box-questions h5{
+  font-size: .9vw;
+  margin-top: 4vh;
+}
+
+.m-c2-faq-box-questions i{
+  font-size: .9vw;
+  margin-top: 4vh;
+  float: right;
+  margin-right: 5vh;
 }
 
 /* 
@@ -684,4 +752,9 @@ footer{
 
 .language .fa-earth-americas{
   margin-right: 0.4vh;
+  font-size: 0.8vw;
+}
+
+.language p{
+  font-size: .8vw;
 }
