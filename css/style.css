@@ -14,6 +14,7 @@ header{
   background-color: white;
   left: 0;
   top: 0;
+  border-bottom: 1px solid #D0D0D3;
 }
 
 .menu-left,.menu-right{
@@ -61,6 +62,39 @@ header{
 
 .menu-right nav{
   margin-left: 7vh;
+}
+
+/* Menu Hover Options */
+.menu-options{
+  position: relative;
+}
+
+.menu-hover-options{
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 22vh;
+  z-index: 1;
+  margin-top: 3.2vh;
+  border-bottom: 1px solid #D0D0D3;
+  border-right: 1px solid #D0D0D3;
+  border-left: 1px solid #D0D0D3;
+}
+
+.menu-hover-options p{
+  color: black;
+  padding: 1.1vh 1.5vh;
+  text-decoration: none;
+  display: block;
+  font-size: .9vw;
+}
+
+.menu-hover-options p:hover{
+  background-color: #D0D0D3;
+}
+
+.menu-options:hover .menu-hover-options {
+  display: block;
 }
 
 /* /Menu */
@@ -160,10 +194,6 @@ header{
 .m-c1-plans-title label{
   font-size: .9vw;
   margin-right: 3vh;
-}
-
-.m-c1-button-costumize-text{
-  /* margin-left: -1vh; */
 }
 
 .container {
@@ -705,6 +735,14 @@ header{
   margin-bottom: 2vh;
   width: 80%;
   font-size: .9vw;
+}
+
+.m-c2-faq-box-questions-answer-hover span{
+  text-decoration: underline;
+}
+
+.m-c2-faq-box-questions-answer-hover span:hover{
+  color: red;
 }
 
 /* 
